@@ -1,0 +1,233 @@
+body { padding: 0; margin: 0; background:#000000; } 
+.navbar { background:black;
+	      margin-bottom: 0;
+          border-radius: 0px;
+           z-index: 100;
+           position: absolute;
+           width: 100%;
+           border: unset;
+           position: fixed;
+           } 
+
+
+
+.nav-link, .navbar-brand { color: white; cursor: pointer; position: relative; top: -15px;} 
+
+.nav-link { position: relative; top: 0px;} 
+.nav-link:hover { color: black;
+    background: white;
+    text-decoration: none; } 
+
+
+.nav-item{
+	list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 120px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 28px;
+    position: relative;
+    top: -10px;
+
+}
+
+
+li{
+    list-style: none;
+    width: 100px;
+    margin-top:15px;
+}
+
+.tago{
+	visibility: hidden;
+}
+
+.itemImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(30%);
+
+}
+
+.carousel-caption{
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: 20%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+html,body{
+   height:100%;
+}
+.carousel,.item,.active{
+   height:100%;
+ }
+.carousel-inner{
+    height:100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.brandbox{ 
+    padding: 24px;
+    font-size: 15px;
+    color: white;
+
+}
+
+h2{
+    color: white;
+    margin-bottom: 30px;
+}
+
+/*.brandbox input{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}*/
+
+
+
+
+.cardK{
+    margin-bottom: 30px;
+    height: 250px;
+    color: white;
+    background-color: red;
+    margin-left: auto;
+}
+
+
+
+.home{
+    color: black;
+    background-color: white;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 50px;
+    z-index: 10;
+}
+
+.memePost{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    /*border-radius: 10px 10px 0px 0px;*/
+}
+
+small{
+    color: #c5c9c5;
+    position: relative;
+    
+}
+
+h4{
+    height: 50px;
+   
+}
+
+#Up{
+    color: black;
+    text-decoration: none;
+}
+
+
+.row{
+    width: 100%;
+}
+
+#Contact{
+    margin-top: 30px;
+    height: 320px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    
+}
+
+.contactBg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    filter: brightness(70%);
+
+}
+
+.contactInfo{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:  -300px;
+    width: fit-content;
+    margin: auto;
+    padding: 24px;
+    background: rgba(0,0,0,.7)
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer small{
+    font-size: 15px;
+    color: gray;
+}
+
+.sort{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.react{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.post{
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.reactCount{
+    position: relative;
+    border-bottom: 1px solid #dbdbdb;
+    margin-left: 16px;
+    padding: 10px;
+}
+
+.postProfile{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.active{
+    background: white;
+    color: black;
+}
+
+
+
+.emoji{
+    cursor: pointer;
+}
